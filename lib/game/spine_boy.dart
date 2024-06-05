@@ -14,8 +14,8 @@ class SpineBoy extends PositionComponent with HasGameRef<FlameAlphaGame> {
   @override
   Future<void> onLoad() async {
     spine = await SpineComponent.fromAssets(
-      atlasFile: 'assets/spine/spine_boy/spineboy.atlas',
-      skeletonFile: 'assets/spine/spine_boy/spineboy.skel',
+      atlasFile: 'assets/spine/snowglobe/snowglobe-pro.atlas',
+      skeletonFile: 'assets/spine/snowglobe/snowglobe-pro.json',
       scale: Vector2(0.4, 0.4),
       anchor: Anchor.center,
       position: gameRef.size / 2 - size / 2,
